@@ -94,3 +94,10 @@ if [ -x /usr/lib/command-not-found ]; then
 fi
 
 /usr/bin/mint-fortune
+
+function title() { 
+	pre='echo -ne "\033]0;' ;  
+	post='\007"' ;  
+	PROMPT_COMMAND=$pre$1$post ; 
+}
+
