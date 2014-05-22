@@ -101,3 +101,5 @@ function title() {
 	PROMPT_COMMAND=$pre$1$post ; 
 }
 
+PYTHONPATH="/home/biswanath/code/ml"
+export PYTHONPATH
